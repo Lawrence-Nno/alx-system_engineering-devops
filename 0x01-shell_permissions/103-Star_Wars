@@ -1,0 +1,3 @@
+#!/bin/bash
+apt install mplayer
+StarWars\ IV\ episode.mp4
