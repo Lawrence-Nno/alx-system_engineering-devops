@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ($((water#$WATER)) + $((stir#$STIR))) | printf '%bestchol\n'
+echo $(($(echo "$WATER" | tr water '01234')) + ($(echo "$STIR" | tr stir '0123'))) | tr '01234567' 'bestchol'
