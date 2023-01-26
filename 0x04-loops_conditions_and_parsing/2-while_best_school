@@ -5,7 +5,7 @@
 n=0
 
 #Iterate 5 times
-while [ $n -lt 5 ]
+while [ $n -lt 10 ]
 do
 	echo "Best School"
 	(( n++ ))
