@@ -5,7 +5,7 @@
 h=0
 
 # Iterate 12 times
-while [ $h -lt 12 ]
+while [ $h -le 12 ]
 do
 	min=1
 	echo "Hour: $h"
