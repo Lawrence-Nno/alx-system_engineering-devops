@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+
+#initialize the counter
+n=0
+
+#iterate the numbers
+until [ $n -eq 10 ]
+do
+	echo "Best School"
+	(( n++ ))
+done
