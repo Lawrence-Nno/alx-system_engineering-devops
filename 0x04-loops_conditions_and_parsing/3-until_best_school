@@ -4,7 +4,7 @@
 #initialize the counter
 n=0
 
-#iterate the numbers
+#iterate 10 times
 until [ $n -eq 10 ]
 do
 	echo "Best School"
