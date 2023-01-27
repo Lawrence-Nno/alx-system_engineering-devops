@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 # This script list all file names in the current directory
-
 # Iterate the result of ls command
-for i in `ls`
-do
-	echo $i | awk -F'[-]' '{print $(NF)}'
+#for i in `ls`
+#do
+#	echo $i | awk -F'[-]' '{print $(NF)}'
+#done
+
+list=$(ls)
+for i in $list; do
+  echo "$i" | cut -d '-' -f2
 done
