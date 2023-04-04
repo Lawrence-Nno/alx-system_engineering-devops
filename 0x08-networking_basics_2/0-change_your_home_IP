@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # This script changes your home ip to 127.0.0.2 and facebook.com resolves to 8.8.8.8
 cp /etc/hosts ~/hosts.new
-sudo echo "127.0.0.2    localhost" > ~/hosts.new
-echo "8.8.8.8    facebook.com" > ~/hosts.new
-sudo cat ~/hosts.new > /etc/hosts
+echo "127.0.0.2    localhost" > ~/hosts.new
+echo "8.8.8.8    facebook.com" >> ~/hosts.new
+cat ~/hosts.new > /etc/hosts
