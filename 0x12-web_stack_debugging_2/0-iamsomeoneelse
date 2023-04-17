@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This script allows the root user to run the whoami commands as 
+# the user passed as argument
+
+runuser -l "$1" -c 'whoami'
